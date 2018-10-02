@@ -15,8 +15,8 @@ footer*/
     grid-template-rows: repeat(4, 1fr);
     grid-template-areas:
         'header header header header'
-        'posts posts sidebar sidebar'
-        'posts posts sidebar sidebar'
+        'main main sidebar sidebar'
+        'main main sidebar sidebar'
         'footer footer footer footer';
 
     grid-gap: 20px;
@@ -47,12 +47,8 @@ footer*/
     grid-area: header;
 }
 
-#write-post {
-    grid-area: write-post;
-}
-
-#posts {
-    grid-area: posts;
+#main {
+    grid-area: main;
 }
 
 
