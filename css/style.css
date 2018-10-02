@@ -1,1 +1,65 @@
 @import 'layout.css';
+
+
+
+/*header
+auth
+write post
+posts
+sidebar
+footer*/
+
+#container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas:
+        'header header header header'
+        'posts posts sidebar sidebar'
+        'posts posts sidebar sidebar'
+        'footer footer footer footer';
+
+    grid-gap: 20px;
+    background-color: #85929E;
+    padding: 10px;
+}
+
+#container > div {
+
+    font-size: 20px;
+    text-align: center;
+    padding: 20px 0;
+    background-color: #D6DBDF;
+    /* border-style: solid;*/
+}
+
+/*shows that write-post and post are separate divs but act like one onthe grid*/
+#write-post {
+    background-color: #F1C40F;
+}
+
+#posts {
+    background-color: #E67E22;
+}
+
+
+#header {
+    grid-area: header;
+}
+
+#write-post {
+    grid-area: write-post;
+}
+
+#posts {
+    grid-area: posts;
+}
+
+
+#sidebar {
+    grid-area: sidebar;
+}
+
+#footer {
+    grid-area: footer;
+}
