@@ -1,0 +1,96 @@
+body {
+	font-size: 18px;
+	line-height: 2;
+}
+
+/* --------------------------------------
+
+Font Pairing 1
+--------------------------------------*/
+/*
+.post .post-text {
+	font-family: 'Marker Felt', fantasy;
+	font-size: 1.5em;
+}
+
+.post .post-info {
+	font-family: 'Snell Roundhand', 'Cursive';
+	font-size: 0.8em;
+	color: gray;
+}
+
+.post .post-author {
+	color: red;
+}
+
+.post .post-date {
+	font-weight: 700;
+}
+*/
+
+
+/* --------------------------------------
+
+Font Pairing 2 
+--------------------------------------*/
+
+/*
+
+.post .post-text {
+	font-family: 'Calibri', sans-serif;
+	font-size: 1.5em;
+}
+
+.post .post-info {
+	font-family: 'papyrus', 'fantasy';
+	font-size: 0.95em;
+	color: gray;
+}
+
+.post .post-author {
+	color: blue;
+}
+
+.post .post-date {
+	font-weight: 500;
+}
+*/
+
+
+
+/* --------------------------------------
+
+Font Pairing 3
+--------------------------------------*/
+
+
+
+.post .post-text {
+	font-family: 'Helvetica Neue' , serif;
+	font-style: oblique;
+    font-variant-caps: all-small-caps;
+    font-size: 1.5em;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 1.1;
+
+}
+
+.post .post-info {
+	font-family: 'Brush Script MT',cursive;
+	font-size: 0.95em;
+	color: gray;
+    letter-spacing: 1.5px;
+    
+}
+
+.post .post-author {
+    font-family: 'Charmonman' ,cursive;
+	color: #3498DB;
+    font-weight: bolder;
+}
+
+.post .post-date {
+	font-weight: 800;
+    color: #1A5276;
+}
