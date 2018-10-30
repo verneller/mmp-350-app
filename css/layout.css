@@ -23,23 +23,20 @@ footer*/
 }
 
 #container > div {
-
     font-size: 20px;
     text-align: center;
     padding: 20px 0;
     background-color: #D6DBDF;
     /* border-style: solid;*/
 }
-
 /*shows that write-post and post are separate divs but act like one onthe grid*/
 #write-post {
-    background-color: #F1C40F;
+    background-color: #808080;
 }
 
 #posts {
-    background-color: #E67E22;
+    background-color:   #cccccc;
 }
-
 
 #header {
     grid-area: header;
@@ -48,7 +45,6 @@ footer*/
 #main {
     grid-area: main;
 }
-
 
 #sidebar {
     grid-area: sidebar;

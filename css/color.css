@@ -1,0 +1,39 @@
+
+body {
+	--hue: 200;
+	--sat: 48%;
+	--lit: 50%;
+
+	--main-color: hsl(var(--hue), var(--sat), var(--lit));
+		
+	--one: calc(var(--hue) + 35);
+	--two: calc(var(--hue) - 56);
+    --three: calc(var(--hue) - 4);
+
+	--accent-one: hsl(var(--one), var(--sat), var(--lit));
+	--accent-two: hsl(var(--two), var(--sat), var(--lit));
+    --accent-three: hsl(var(--three), var(--sat), var(--lit));
+}
+
+.post {
+	border: 5px solid var(--main-color);
+	margin: 0.5em;
+	padding: 0.1em;
+}
+
+
+ .post .post-text {
+	color: var(--accent-one);  
+     font-weight: bolder;
+}
+
+ .post .post-date {
+	color: var(--accent-two);
+}
+
+
+ .post .post-author {
+	color: var(--accent-three);
+}
+
+
