@@ -2,8 +2,5 @@
 
 @import 'layout.css';
 @import 'typography.css';
-=======
-@import 'typography.css';
-@import 'color-mono.css';
-@import 'color.triadic.css'
+@import 'color.css'
 
