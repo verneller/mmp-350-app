@@ -1,18 +1,23 @@
+/*analoguous color scheme */
 
 body {
 	--hue: 200;
-	--sat: 48%;
+	--sat: 48;
 	--lit: 50%;
 
-	--main-color: hsl(var(--hue), var(--sat), var(--lit));
+    --sat1: calc(var(--sat) * 1%);
+    --sat2: calc(calc(var(--sat) - 30) * 1%);
+    
+	--main-color: hsl(var(--hue), var(--sat1), var(--lit));
 		
 	--one: calc(var(--hue) + 35);
 	--two: calc(var(--hue) - 56);
     --three: calc(var(--hue) - 4);
+    
 
-	--accent-one: hsl(var(--one), var(--sat), var(--lit));
-	--accent-two: hsl(var(--two), var(--sat), var(--lit));
-    --accent-three: hsl(var(--three), var(--sat), var(--lit));
+	--accent-one: hsl(var(--one), var(--sat1), var(--lit));
+	--accent-two: hsl(var(--two), var(--sat1), var(--lit));
+    --accent-three: hsl(var(--three), var(--sat2), var(--lit));
 }
 
 .post {
